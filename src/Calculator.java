@@ -1,6 +1,5 @@
 import javax.swing.*;
 import javax.swing.border.Border;
-
 import java.awt.*;
 import java.awt.event.*;
 
@@ -16,15 +15,16 @@ public class Calculator{
     JPanel panel;
     ButtonListener listener;
 
+    double num1 = 0, num2 = 0, result = 0;
+    char operator = '+';
+
+    // --- instantiate font, colors, and border
     Font font = new Font("Roboto", Font.PLAIN, 30);
     Color bgColor = new Color(40, 40, 40);
     Color textfieldBgColor = new Color(24, 24, 25);
     Color fgColor = new Color(221, 221, 221);
     Color buttonBgColor = new Color(79, 79, 79);
     Border buttonBorder = BorderFactory.createRaisedSoftBevelBorder();
-
-    double num1 = 0, num2 = 0, result = 0;
-    char operator = '+';
 
     // --- constructor ---
     Calculator(){
