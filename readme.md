@@ -1,2 +1,1 @@
-Hello everyone,
-This project is a very beginner project written in java :)
+GUI programming practice with Java Swing library.
